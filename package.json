@@ -1,5 +1,5 @@
 {
-  "name": "networkxjs",
+  "name": "@hanzifinder-chao/networkxjs",
   "version": "0.0.2",
   "description": "A JavaScript library for graph data structures and algorithms, inspired by Python's NetworkX.",
   "main": "src/index.js",
