@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "test": "cross-env NODE_OPTIONS=--experimental-vm-modules jest",
-    "build": "echo 'No build step yet. Add bundler or compiler if needed.'",
+    "build": "rollup -c",
     "lint": "eslint ."
   },
   "keywords": [
@@ -20,8 +20,12 @@
   "devDependencies": {
     "@babel/core": "^7.26.9",
     "@babel/preset-env": "^7.26.9",
+    "@rollup/plugin-commonjs": "^28.0.2",
+    "@rollup/plugin-node-resolve": "^16.0.0",
     "babel-jest": "^29.7.0",
     "cross-env": "^7.0.3",
-    "jest": "^29.5.0"
+    "esbuild": "^0.25.0",
+    "jest": "^29.5.0",
+    "rollup": "^4.34.7"
   }
 }

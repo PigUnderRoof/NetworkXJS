@@ -26,6 +26,17 @@ npm install networkxjs
 pnpm add networkxjs
 ```
 
+In browser environments, you can include the library via a CDN:
+
+```html
+<script src="/url/to/networkxjs.umd.js"></script>
+<script>
+  const G = new NetworkXJS.Graph();
+  G.addNode(1);
+  G.addEdge(1, 2);
+  console.log(G.hasEdge(1, 2));  // true
+</script>
+```
 ---
 
 ## 🚀 Quick Start
